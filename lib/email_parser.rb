@@ -16,7 +16,7 @@ def parse
 
 end
 
-email_addresses = "tmills@doe.com", "keith@houston.org"
-parser = EmailParser.new (email_addresses)
+email_addresses = ("tmills@doe.com", "keith@houston.org")
+parser = EmailAddressParser.new (email_addresses)
 
 parser.parse
