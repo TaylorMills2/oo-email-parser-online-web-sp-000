@@ -16,4 +16,4 @@ def parse
 
 end
 
-email_addresses = ""
+email_addresses = ("tmills@doe.com", ""
